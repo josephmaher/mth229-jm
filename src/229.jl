@@ -1,6 +1,9 @@
 ### Load in with
 ### include(download("https://raw.githubusercontent.com/mth229/MTH229.jl/master/src/229.jl"))
 
+using Pkg
+pkg"add SymPy SpecialFunctions Roots ForwardDiff Plots QuadGK"
+
 using Plots
 using SpecialFunctions
 
